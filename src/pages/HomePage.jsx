@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Link } from 'react-router-dom'
-import { List, X, WhatsappLogo, InstagramLogo, Star, ArrowDown, Scalpel, Eye, Heart, UserCircle, Certificate, MapPin, Clock, Phone, GoogleLogo, ArrowRight, ShieldCheck } from '@phosphor-icons/react'
+import { List, X, WhatsappLogo, InstagramLogo, Star, ArrowDown, Knife, Eye, Heart, UserCircle, Certificate, MapPin, Clock, Phone, GoogleLogo, ArrowRight, ShieldCheck } from '@phosphor-icons/react'
 
 const procedimentos = [
-  { icon: Scalpel, title: 'Mamoplastia', desc: 'Aumento, redução e lifting mamário com técnicas modernas e resultados naturais.' },
+  { icon: Knife, title: 'Mamoplastia', desc: 'Aumento, redução e lifting mamário com técnicas modernas e resultados naturais.' },
   { icon: Eye, title: 'Blefaroplastia', desc: 'Rejuvenescimento do olhar com remoção de excesso de pele nas pálpebras.' },
   { icon: UserCircle, title: 'Rinoplastia', desc: 'Harmonização nasal funcional e estética, respeitando as proporções faciais.' },
   { icon: Heart, title: 'Lipoaspiração', desc: 'Remodelação corporal com remoção de gordura localizada por técnica tumescente.' },
