@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; color: #1B2B3A; background: #F7F5F2; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 300; line-height: 1.1; }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+::selection { background: #7B9BAF; color: white; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: #7B9BAF; border-radius: 3px; }
